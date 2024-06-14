@@ -1,0 +1,36 @@
+header {
+  position: absolute;
+  // padding-top: 40px;
+  // height: 500px;
+  // background-color: #cccccc;
+}
+
+.nav-box {
+  margin-bottom: 112px;
+  display: flex;
+  justify-content: space-between;
+
+  @include teal();
+
+  align-items: center;
+}
+
+.header__logo {
+  display: inline-block;
+  margin-right: auto;
+
+  @include teal();
+}
+
+.btn-mobile {
+  display: flex;
+  width: 40px;
+  height: 40px;
+
+  @include tomato();
+  background-color: transparent;
+
+  & img {
+    margin: auto;
+  }
+}
