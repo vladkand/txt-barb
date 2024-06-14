@@ -1,4 +1,13 @@
 //
+.about__images {
+   display: none;
+}
+
+.about__thumb {
+   & + & {
+      margin-top: 30px;
+   }
+}
 .about__content {
    margin-bottom: 40px;
 }

@@ -1,5 +1,7 @@
 .hero {
    width: 100%;
+   margin-left: auto;
+   margin-right: auto;
    // height: 100vh;
    padding-top: 208px;
    padding-bottom: 189px;
@@ -15,6 +17,7 @@
       url(../img/hero-img.jpg);
    background-repeat: no-repeat;
    background-position: center;
+   background-size: contain;
 
    .hero__container {
       max-width: 480px;
@@ -43,7 +46,7 @@
    font-weight: 700;
    font-size: 48px;
    letter-spacing: 0.05em;
-   color: var(--hero-title-color);
+   color: var(--white-color);
 }
 
 .hero__descr {

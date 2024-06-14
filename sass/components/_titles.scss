@@ -18,6 +18,16 @@
    color: var(--prima-color);
 }
 
+.subtitle-big {
+   font-weight: 700;
+   font-size: 42px;
+   letter-spacing: 0.05em;
+}
+
+.subtitle-big--light {
+   color: var(--white-color);
+}
+
 .features-title {
    font-weight: 400;
    font-size: 16px;

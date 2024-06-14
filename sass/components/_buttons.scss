@@ -1,5 +1,20 @@
 .btn {
    padding: 12px 20px;
-   border: 1px solid tomato;
+
+   font-weight: 600;
+   font-size: 12px;
+   letter-spacing: 0.09em;
+   text-transform: uppercase;
+   color: var(--prima-color);
+
+   background-color: transparent;
+   border: 1px solid var(--accent-color);
    border-radius: 25px;
+   transition: 300ms linear color, 300ms linear background;
+}
+
+.btn:hover {
+   cursor: pointer;
+   color: var(--white-color);
+   background-color: var(--accent-color);
 }
