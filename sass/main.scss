@@ -1,12 +1,15 @@
 // variables
 // @import "./utils/normalize";
-@import "./utils/mixins";
-@import "./utils/vars";
-@import "./base/reset";
+@import './utils/mixins';
+@import './utils/vars';
+@import './base/reset';
 
 // common
-@import "./base/common";
+@import './base/common';
+
+// components
+@import './components/titles';
 
 // layout
-@import "./layout/header/header";
-@import "./layout/header/hero";
+@import './layout/header/header';
+@import './layout/header/hero';

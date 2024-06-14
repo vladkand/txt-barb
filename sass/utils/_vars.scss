@@ -1,9 +1,10 @@
 :root {
-  --hero-pretitle-color: rgba(157, 164, 189, 0.6);
-  --hero-title-color: #ffffff;
-  --hero-descr-color: #9da4bd;
+   --hero-title-color: #ffffff;
+   --pretitle-color-light: rgba(157, 164, 189, 0.6);
+   --pretitle-color: #303030;
+   --hero-descr-color: #9da4bd;
 
-  // ===== FONTS
-  --main-font: "Open Sans", sans-serif;
-  --accent-font: "Raleway", sans-serif;
+   // ===== FONTS
+   --main-font: 'Open Sans', sans-serif;
+   --accent-font: 'Raleway', sans-serif;
 }
