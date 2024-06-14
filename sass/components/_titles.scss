@@ -1,10 +1,39 @@
-.pretitle {
+.section-title {
    font-size: 11px;
    font-weight: 600;
+   letter-spacing: 0.1em;
+
    text-transform: uppercase;
-   color: var(--pretitle-color);
+   color: var(--prima-color);
 }
 
-.pretitle--light {
-   color: var(--pretitle-color-light);
+.title--light {
+   color: var(--color-light);
+}
+
+.section-subtitle {
+   font-weight: 700;
+   font-size: 28px;
+   letter-spacing: 0.05em;
+   color: var(--prima-color);
+}
+
+.features-title {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.62;
+   letter-spacing: 0.02em;
+   color: var(--second-color);
+}
+
+.features-title--ligten {
+   color: var(--color-lighten);
+}
+
+.section__descr {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.86;
+   letter-spacing: 0.02em;
+   color: #555;
 }

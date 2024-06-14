@@ -1,8 +1,9 @@
 :root {
   --hero-title-color: #ffffff;
-  --pretitle-color-light: rgba(157, 164, 189, 0.6);
-  --pretitle-color: #303030;
-  --hero-descr-color: #9da4bd;
+  --prima-color: #303030;
+  --second-color: #555555;
+  --color-light: rgba(157, 164, 189, 0.6);
+  --color-lighten: #9da4bd;
   --main-font: "Open Sans", sans-serif;
   --accent-font: "Raleway", sans-serif;
 }
@@ -41,8 +42,18 @@ input {
 }
 
 button {
-  border: 1px solid transparent;
+  display: inline-block;
+  outline: none;
   border: none;
+  font-size: 100%;
+  margin: 0;
+  line-height: normal;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--prima-color);
+  background-color: transparent;
 }
 
 body {
@@ -56,7 +67,14 @@ body {
   padding-bottom: 84px;
 }
 
+.section__item + .section__item {
+  margin-top: 20px;
+}
+
 .container {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 31px;
   padding-right: 31px;
 }
@@ -65,15 +83,49 @@ body {
   cursor: pointer;
 }
 
-.pretitle {
+.section-title {
   font-size: 11px;
   font-weight: 600;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--pretitle-color);
+  color: var(--prima-color);
 }
 
-.pretitle--light {
-  color: var(--pretitle-color-light);
+.title--light {
+  color: var(--color-light);
+}
+
+.section-subtitle {
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 0.05em;
+  color: var(--prima-color);
+}
+
+.features-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
+
+.features-title--ligten {
+  color: var(--color-lighten);
+}
+
+.section__descr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555;
+}
+
+.btn {
+  padding: 12px 20px;
+  border: 1px solid tomato;
+  border-radius: 25px;
 }
 
 header {
@@ -136,6 +188,7 @@ header {
 
 .hero__content {
   padding-left: 31px;
+  max-width: 306px;
 }
 
 .hero__title {
@@ -146,11 +199,6 @@ header {
   color: var(--hero-title-color);
 }
 
-.hero__descr {
-  max-width: 306px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.02em;
-  color: var(--hero-descr-color);
+.about__content {
+  margin-bottom: 40px;
 }/*# sourceMappingURL=main.css.map */

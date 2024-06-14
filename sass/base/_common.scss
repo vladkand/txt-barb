@@ -11,7 +11,16 @@ body {
    padding-bottom: 84px;
 }
 
+.section__item {
+   & + & {
+      margin-top: 20px;
+   }
+}
+
 .container {
+   max-width: 480px;
+   margin-left: auto;
+   margin-right: auto;
    padding-left: 31px;
    padding-right: 31px;
 }

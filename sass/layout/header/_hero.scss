@@ -29,6 +29,7 @@
    padding-left: 31px;
    // padding-top: 208px;
    // padding-right: 143px;
+   max-width: 306px;
 }
 
 .hero__pretitle {
@@ -46,11 +47,5 @@
 }
 
 .hero__descr {
-   max-width: 306px;
-
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 1.62;
-   letter-spacing: 0.02em;
-   color: var(--hero-descr-color);
+   // max-width: 306px;
 }
