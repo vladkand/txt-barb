@@ -1,16 +1,21 @@
 body {
-  font-family: var(--main-font);
-  min-width: 240px;
-  // margin-left: auto;
-  // margin-right: auto;
-  background-color: #ffffff;
+   font-family: var(--main-font);
+   min-width: 240px;
+   // margin-left: auto;
+   // margin-right: auto;
+   background-color: #ffffff;
+}
+
+.section {
+   padding-top: 84px;
+   padding-bottom: 84px;
 }
 
 .container {
-  padding-left: 31px;
-  padding-right: 31px;
+   padding-left: 31px;
+   padding-right: 31px;
 }
 
 .btn:hover {
-  cursor: pointer;
+   cursor: pointer;
 }
