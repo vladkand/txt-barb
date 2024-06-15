@@ -55,6 +55,7 @@ button {
 body {
   font-family: var(--main-font);
   min-width: 240px;
+  font-weight: 400;
   background-color: #ffffff;
 }
 
@@ -99,22 +100,24 @@ body {
 .section-subtitle {
   font-family: var(--second-font);
   font-weight: 700;
-  font-size: 48px;
+  font-size: 42px;
   letter-spacing: 0.05em;
   color: var(--prima-color);
 }
 
-.subtitle-big {
-  font-size: 42px;
-  letter-spacing: 0.05em;
-}
-
+.section-subtitle--light,
 .subtitle-big--light {
   color: var(--white-color);
 }
 
+.after-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
+
 .features-title {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.02em;
@@ -126,7 +129,6 @@ body {
 }
 
 .section__descr {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.86;
   letter-spacing: 0.02em;
@@ -227,6 +229,7 @@ header {
 }
 
 .hero__title {
+  font-size: 48px;
   color: var(--white-color);
 }
 
@@ -286,4 +289,50 @@ header {
   line-height: 1.67;
   letter-spacing: 0.02em;
   color: var(--second-color);
+  background-color: tomato;
+}
+
+.avantages__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+
+.avantages__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 193px;
+  height: 168px;
+  text-align: center;
+  outline: 1px solid teal;
+}
+.avantages__item:nth-child(2n) {
+  margin-top: 30px;
+}
+
+.aventages__value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 122px;
+  height: 93px;
+  background-color: #ccc;
 }/*# sourceMappingURL=main.css.map */

@@ -5,4 +5,42 @@
    line-height: 1.67;
    letter-spacing: 0.02em;
    color: var(--second-color);
+
+   background-color: tomato;
 }
+
+.avantages__list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+
+.avantages__item {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 193px;
+   height: 168px;
+
+   text-align: center;
+
+   &:nth-child(2n) {
+      margin-top: 30px;
+   }
+
+   outline: 1px solid teal;
+}
+
+.aventages__value {
+   //    margin: auto;
+   display: flex;
+   flex-direction: column;
+   width: 122px;
+   height: 93px;
+   background-color: #ccc;
+}
+
+// .avantages__descr {
+//    margin: auto;
+// }

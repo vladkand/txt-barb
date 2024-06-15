@@ -21,22 +21,25 @@
 .section-subtitle {
    font-family: var(--second-font);
    font-weight: 700;
-   font-size: 48px;
+   font-size: 42px;
    letter-spacing: 0.05em;
    color: var(--prima-color);
 }
 
-.subtitle-big {
-   font-size: 42px;
-   letter-spacing: 0.05em;
-}
-
+.section-subtitle--light,
 .subtitle-big--light {
    color: var(--white-color);
 }
 
+.after-title {
+   // font-family: var(--font-family);
+   font-size: 18px;
+   line-height: 1.67;
+   letter-spacing: 0.02em;
+   color: var(--second-color);
+}
+
 .features-title {
-   font-weight: 400;
    font-size: 16px;
    line-height: 1.62;
    letter-spacing: 0.02em;
@@ -48,7 +51,6 @@
 }
 
 .section__descr {
-   font-weight: 400;
    font-size: 14px;
    line-height: 1.86;
    letter-spacing: 0.02em;
