@@ -5,7 +5,7 @@
    letter-spacing: 0.05em;
 }
 
-.section-title {
+.pretitle {
    font-size: 11px;
    font-weight: 600;
    letter-spacing: 0.1em;
@@ -14,11 +14,7 @@
    color: var(--prima-color);
 }
 
-.title--light {
-   color: var(--color-light);
-}
-
-.section-subtitle {
+.title {
    font-family: var(--second-font);
    font-weight: 700;
    font-size: 42px;
@@ -26,29 +22,30 @@
    color: var(--prima-color);
 }
 
-.section-subtitle--light,
-.subtitle-big--light {
-   color: var(--white-color);
+.text--light {
+   color: var(--color-light);
 }
 
-.after-title {
-   // font-family: var(--font-family);
-   font-size: 18px;
-   line-height: 1.67;
-   letter-spacing: 0.02em;
-   color: var(--second-color);
+.text--lighten {
+   color: var(--color-lighteh);
 }
 
-.features-title {
-   font-size: 16px;
-   line-height: 1.62;
-   letter-spacing: 0.02em;
-   color: var(--second-color);
-}
+// .after-title {
+//    font-size: 18px;
+//    line-height: 1.67;
+//    color: var(--second-color);
+// }
 
-.features-title--ligten {
-   color: var(--color-lighten);
-}
+// .features-title {
+//    font-size: 16px;
+//    line-height: 1.62;
+//    letter-spacing: 0.02em;
+//    color: var(--second-color);
+// }
+
+// .features-title--ligten {
+//    color: var(--color-lighten);
+// }
 
 .section__descr {
    font-size: 14px;

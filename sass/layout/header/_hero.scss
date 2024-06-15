@@ -42,13 +42,19 @@
 }
 
 .hero__title {
-   // font-family: var(--second-font);
-   // font-weight: 700;
    font-size: 48px;
-   // letter-spacing: 0.05em;
    color: var(--white-color);
 }
 
 .hero__descr {
    // max-width: 306px;
+}
+
+.hero__after-title {
+   // font-weight: 400;
+   font-size: 16px;
+   line-height: 1.62;
+   letter-spacing: 0.02em;
+
+   color: var(--color-lighten);
 }
