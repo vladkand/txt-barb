@@ -13,6 +13,10 @@
    transition: 300ms linear color, 300ms linear background;
 }
 
+.btn--darck {
+   color: var(--white-color);
+}
+
 .btn:hover {
    cursor: pointer;
    color: var(--white-color);

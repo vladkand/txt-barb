@@ -138,6 +138,10 @@ body {
   transition: 300ms linear color, 300ms linear background;
 }
 
+.btn--darck {
+  color: var(--white-color);
+}
+
 .btn:hover {
   cursor: pointer;
   color: var(--white-color);
@@ -231,9 +235,43 @@ header {
 }
 
 .prices {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--darck-section-color);
   background-image: url(../img/prices-bg-mob.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.prices__subtitle {
+  margin-bottom: 44px;
+}
+
+.prices__list {
+  padding: 30px;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.14;
+  letter-spacing: 0.02em;
+  color: var(--color-lighten);
+  background-color: rgba(23, 26, 36, 0.2);
+  outline: 1px solid tomato;
+}
+
+.prices__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.prices__btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=main.css.map */
