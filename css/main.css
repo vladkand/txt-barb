@@ -7,7 +7,7 @@
   --color-lighten: #9da4bd;
   --darck-section-color: #111319;
   --main-font: "Open Sans", sans-serif;
-  --accent-font: "Raleway", sans-serif;
+  --second-font: "Raleway", sans-serif;
 }
 
 p,
@@ -59,6 +59,9 @@ body {
 }
 
 .section {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 84px;
   padding-bottom: 84px;
 }
@@ -75,6 +78,12 @@ body {
   padding-right: 31px;
 }
 
+.title {
+  font-family: var(--second-font);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
 .section-title {
   font-size: 11px;
   font-weight: 600;
@@ -88,14 +97,14 @@ body {
 }
 
 .section-subtitle {
+  font-family: var(--second-font);
   font-weight: 700;
-  font-size: 28px;
+  font-size: 48px;
   letter-spacing: 0.05em;
   color: var(--prima-color);
 }
 
 .subtitle-big {
-  font-weight: 700;
   font-size: 42px;
   letter-spacing: 0.05em;
 }
@@ -139,6 +148,9 @@ body {
 }
 
 .btn--darck {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   color: var(--white-color);
 }
 
@@ -215,10 +227,6 @@ header {
 }
 
 .hero__title {
-  font-family: var(--accent-font);
-  font-weight: 700;
-  font-size: 48px;
-  letter-spacing: 0.05em;
   color: var(--white-color);
 }
 
@@ -234,10 +242,12 @@ header {
   margin-bottom: 40px;
 }
 
+.about__subtitle {
+  font-size: 28px;
+  max-width: 352px;
+}
+
 .prices {
-  max-width: 480px;
-  margin-left: auto;
-  margin-right: auto;
   background-color: var(--darck-section-color);
   background-image: url(../img/prices-bg-mob.png);
   background-repeat: no-repeat;
@@ -270,8 +280,10 @@ header {
           justify-content: space-between;
 }
 
-.prices__btn {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.avantages-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
 }/*# sourceMappingURL=main.css.map */
