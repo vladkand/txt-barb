@@ -1,9 +1,9 @@
 //
-.title {
-   font-family: var(--second-font);
-   font-weight: 700;
-   letter-spacing: 0.05em;
-}
+// .title {
+//    font-family: var(--second-font);
+//    font-weight: 700;
+//    letter-spacing: 0.05em;
+// }
 
 .pretitle {
    font-size: 11px;
@@ -22,6 +22,10 @@
    color: var(--prima-color);
 }
 
+.title--white {
+   color: var(--white-color);
+}
+
 .text--light {
    color: var(--color-light);
 }
@@ -30,26 +34,9 @@
    color: var(--color-lighteh);
 }
 
-// .after-title {
-//    font-size: 18px;
-//    line-height: 1.67;
-//    color: var(--second-color);
-// }
-
-// .features-title {
-//    font-size: 16px;
-//    line-height: 1.62;
-//    letter-spacing: 0.02em;
-//    color: var(--second-color);
-// }
-
-// .features-title--ligten {
-//    color: var(--color-lighten);
-// }
-
 .section__descr {
    font-size: 14px;
    line-height: 1.86;
-   letter-spacing: 0.02em;
+   // letter-spacing: 0.02em;
    color: #555;
 }
