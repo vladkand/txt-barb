@@ -6,12 +6,23 @@
 // }
 
 .pretitle {
+   display: flex;
+   align-items: center;
    font-size: 11px;
+   line-height: 1.91;
    font-weight: 600;
    letter-spacing: 0.1em;
 
    text-transform: uppercase;
    color: var(--prima-color);
+
+   &::before {
+      content: '';
+      width: 60px;
+      height: 1px;
+      margin-right: 20px;
+      background-color: teal;
+   }
 }
 
 .title {
@@ -19,7 +30,7 @@
    font-weight: 700;
    font-size: 42px;
    letter-spacing: 0.05em;
-   color: var(--prima-color);
+   // color: var(--prima-color);
 }
 
 .title--white {
@@ -35,7 +46,7 @@
 }
 
 .section__descr {
-   font-size: 14px;
+   // font-size: 14px;
    line-height: 1.86;
    // letter-spacing: 0.02em;
    color: #555;

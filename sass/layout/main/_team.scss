@@ -1,5 +1,20 @@
+//
+.team {
+   background-color: var(--bg-accent-color);
+}
+
 .team * {
    // outline: 1px solid teal;
+}
+
+.card-set {
+   display: flex;
+   flex-direction: column;
+   margin-top: -64px;
+}
+
+.cadr-set__item {
+   margin-top: 64px;
 }
 
 .team-list__thumb {

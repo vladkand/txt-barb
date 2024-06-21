@@ -6,6 +6,7 @@
   --color-light: rgba(157, 164, 189, 0.6);
   --color-lighten: #9da4bd;
   --darck-section-color: #111319;
+  --bg-accent-color: #f3f3f3;
   --main-font: "Open Sans", sans-serif;
   --second-font: "Raleway", sans-serif;
 }
@@ -56,7 +57,9 @@ body {
   font-family: var(--main-font);
   min-width: 240px;
   font-weight: 400;
+  font-size: 14px;
   letter-spacing: 0.02em;
+  color: var(--prima-color);
   background-color: #ffffff;
 }
 
@@ -85,11 +88,25 @@ body {
 }
 
 .pretitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 11px;
+  line-height: 1.91;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--prima-color);
+}
+.pretitle::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  margin-right: 20px;
+  background-color: teal;
 }
 
 .title {
@@ -97,7 +114,6 @@ body {
   font-weight: 700;
   font-size: 42px;
   letter-spacing: 0.05em;
-  color: var(--prima-color);
 }
 
 .title--white {
@@ -113,7 +129,6 @@ body {
 }
 
 .section__descr {
-  font-size: 14px;
   line-height: 1.86;
   color: #555;
 }
@@ -206,7 +221,7 @@ header {
   margin-right: auto;
 }
 
-.hero__content {
+.hero__wrapper {
   padding-left: 31px;
   max-width: 306px;
 }
@@ -312,8 +327,7 @@ header {
   height: 168px;
   padding: 20px 24px;
   text-align: center;
-  background-color: #f7f7f7;
-  outline: 1px solid teal;
+  background-color: var(--bg-accent-color);
 }
 .avantages__item:nth-child(2n) {
   margin-top: 30px;
@@ -331,6 +345,25 @@ header {
   font-weight: 600;
   font-size: 11px;
   text-align: center;
+}
+
+.team {
+  background-color: var(--bg-accent-color);
+}
+
+.card-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -64px;
+}
+
+.cadr-set__item {
+  margin-top: 64px;
 }
 
 .team-list__thumb {
@@ -379,4 +412,12 @@ header {
 }
 .social__link:hover, .social__link:focus {
   background-color: var(--accent-color);
+}
+
+.gallery__list {
+  margin-top: -30px;
+}
+
+.gallery__item {
+  margin-top: 30px;
 }/*# sourceMappingURL=main.css.map */
