@@ -1,13 +1,42 @@
 .team * {
-   outline: 1px solid teal;
+   // outline: 1px solid teal;
 }
 
-.section__head {
-   margin-bottom: 44px;
+.team-list__thumb {
+   padding-bottom: 30px;
 }
 
 .member__descr {
    text-align: center;
+   padding-bottom: 30px;
+}
+
+.member__name {
+   margin-bottom: 8px;
+   // font-weight: 400;
+   font-size: 18px;
+   // letter-spacing: 0.02em;
+   // text-align: center;
+   // color: #303030;
+}
+
+.member__position {
+   color: var(--accent-color);
+}
+
+.membr__name {
+   padding-bottom: 8px;
+}
+
+.member__social {
+   display: flex;
+   justify-content: center;
+}
+
+.social-list__item {
+   & + & {
+      margin-left: 10px;
+   }
 }
 
 .social__link {
@@ -17,4 +46,9 @@
    border-radius: 50%;
 
    outline: 1px solid tomato;
+
+   &:hover,
+   &:focus {
+      background-color: var(--accent-color);
+   }
 }
