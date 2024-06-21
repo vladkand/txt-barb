@@ -1,0 +1,20 @@
+.team * {
+   outline: 1px solid teal;
+}
+
+.section__head {
+   margin-bottom: 44px;
+}
+
+.member__descr {
+   text-align: center;
+}
+
+.social__link {
+   display: inline-flex;
+   width: 44px;
+   height: 44px;
+   border-radius: 50%;
+
+   outline: 1px solid tomato;
+}
