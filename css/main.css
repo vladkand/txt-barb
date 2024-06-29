@@ -161,39 +161,38 @@ body {
   background-color: var(--accent-color);
 }
 
-.modal {
+.mob-menu {
   position: relative;
   max-width: 480px;
   height: 796px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 143px;
   background-color: rgba(25, 28, 38, 0.2);
 }
 
-.mob-menu {
-  position: absolute;
-  right: 0;
-  top: 0;
+.mob-menu__wrapper {
   width: 337px;
   height: 100%;
+  padding-top: 48px;
+  padding-right: 31px;
+  padding-left: 40px;
   background-color: #fff;
   outline: 1px solid teal;
 }
 
-.mob-menu__wrap {
-  padding-top: 48px;
-  padding-right: 31px;
-  padding-left: 40px;
-}
-
 .mob-menu__btn {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-left: auto;
   width: 40px;
   height: 40px;
   outline: 1px solid teal;
+}
+
+.btn--wide {
+  padding: 12px 37px;
 }
 
 header {
